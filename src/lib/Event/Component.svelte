@@ -3,9 +3,9 @@
     import Language from "../../resources/language.js";
     import EventPages from "../../resources/markdown/events/pages.js";
 
-    const isHavingEvent = false;
-    const eventName = "New Year's PenguinJam 2025";
-    const eventPath = "penguinjamnewyears2025";
+    const isHavingEvent = true;
+    const eventName = "live";
+    const eventPath = "6-07-6767-live";
     
     let currentLang = "en";
     let pageLang = "en";
@@ -21,10 +21,10 @@
 </script>
 
 {#if isHavingEvent}
-    <a href="/events/{eventPath}?l={pageLang}">
+    <a href="/devposts/{eventPath}?l={pageLang}">
         <button title={eventName}>
             <img
-                src="/events/{pageLang}/{eventPath}.webp"
+                src="/devposts/{eventPath}.webp"
                 title={eventName}
                 alt={eventName}
             >

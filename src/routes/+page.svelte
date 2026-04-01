@@ -298,10 +298,10 @@
 </script>
 
 <svelte:head>
-    <title>PenguinMod - Home</title>
-    <meta name="title" content="PenguinMod - Home" />
-    <meta property="og:title" content="PenguinMod - Home" />
-    <meta property="twitter:title" content="PenguinMod - Home" />
+    <title>TutelMod - Home</title>
+    <meta name="title" content="TutelMod - Home" />
+    <meta property="og:title" content="TutelMod - Home" />
+    <meta property="twitter:title" content="TutelMod - Home" />
     <meta
         name="description"
         content="The area where featured projects and community stuff & info is shown."
@@ -325,7 +325,7 @@
 
     <Alert
         onlyShowID={"donatee:_3"}
-        text={"PenguinMod is a free-to-use visual coding website. Your support can help us keep the website working!"}
+        text={"TutelMod is a free-to-use visual coding website. Your support can help us keep the website working!"}
         textBreakup={true}
         textColor={"white"}
         hasImage={true}
@@ -415,7 +415,7 @@
                 />
                 <p>
                     <LocalizedText
-                        text="PenguinMod is made by English-speaking developers. Expect minor issues and sorry for any translation errors."
+                        text="TutelMod is made by English-speaking developers. Expect minor issues and sorry for any translation errors."
                         key="translation.warning"
                         lang={currentLang}
                     />
@@ -461,7 +461,7 @@
             <img src="/warning.png" draggable="false" alt="Warning" />
             <p>
                 <LocalizedText
-                    text="PenguinMod is made by English-speaking developers. Expect minor issues and sorry for any translation errors."
+                    text="TutelMod is made by English-speaking developers. Expect minor issues and sorry for any translation errors."
                     key="translation.warning"
                     lang={currentLang}
                 />
@@ -472,7 +472,7 @@
     <p style="width: 100%; text-align: center;">
         <i>
             <LocalizedText
-                text="Scratch Note: Please don't mention PenguinMod on Scratch, we have different rules compared to Scratch! 😅"
+                text="Scratch Note: Please don't mention TutelMod on Scratch, we have different rules compared to Scratch! 😅"
                 key="home.scratchnote"
                 lang={currentLang}
             />
@@ -716,28 +716,25 @@
                 <div class="category-news">
                     <div class="category-news-content">
                         <h2 style="margin-block:4px;">
-                            New Years PenguinJam has been ranked!
+                            TutelMod is now LIVE! :tada:
                         </h2>
                         <div style="width:100%">
                             <p>
-                                All of the projects in the New Years PenguinJam
-                                have been ranked!
+                                    hey theree! :D we have some super exciting news to share with you all...
                                 <br />
-                                Thanks to everyone who participated!
+                                we are officially out of beta! :3
                                 <br />
-                                If you got a bad score, that's not a bad thing! It
-                                means there's room to improve and you can do better
-                                next time around to try and get a higher score.
+                                huge thanks to everyone who participated in the beta and helped us test out the website before launch, we couldn't have done it without you! :D
                             </p>
                             <p style="margin-block-start:4px;">
                                 <a
-                                    href="https://projects.penguinmod.com/4826108719"
-                                    >New Years PenguinJam Official Rankings</a
+                                    href="https://linkgoeshere.com"
+                                    >First Devpost!</a
                                 >
                             </p>
                             <img
-                                src="/events/news/penguinjamnewyears2025.webp"
-                                alt="New Years PenguinJam 2025"
+                                src="/devposts/news/6-07-6767-live.webp"
+                                alt="live"
                                 style="width:100%;"
                             />
                         </div>
@@ -753,7 +750,7 @@
                                 ]}
                             {:else}
                                 <LocalizedText
-                                    text="PenguinNews is not translated in your language. Sorry! :("
+                                    text="TutelNews is not translated in your language. Sorry! :("
                                     key="home.sections.informational.notranslation"
                                     lang={currentLang}
                                 />
@@ -789,7 +786,7 @@
                     }}
                 >
                     <LocalizedText
-                        text="PenguinNews"
+                        text="TutelNews"
                         key="home.sections.informational"
                         lang={currentLang}
                     />
@@ -1104,7 +1101,7 @@
     <div class="footer">
         <p>
             <LocalizedText
-                text="PenguinMod is not affiliated with Scratch, TurboWarp, the Scratch Team, or the Scratch Foundation."
+                text="TutelMod is not affiliated with Scratch, TurboWarp, PenguinMod, the Scratch Team, or the Scratch Foundation."
                 key="home.footer.notaffiliated"
                 lang={currentLang}
             />
@@ -1167,7 +1164,7 @@
                 </p>
                 <a
                     target="_blank"
-                    href={"https://github.com/PenguinMod/PenguinMod-Home/issues"}
+                    href={"https://github.com/TutelMod/TutelMod-Home/issues"}
                 >
                     <LocalizedText
                         text="Report an issue"
@@ -1233,7 +1230,7 @@
                         lang={currentLang}
                     />
                 </p>
-                <a href={"/support"}>PenguinMod</a>
+                <a href={"/support"}>TutelMod</a>
                 <a target="_blank" href={LINK.donate.scratch}>Scratch</a>
             </div>
         </div>

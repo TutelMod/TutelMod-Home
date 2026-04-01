@@ -29,6 +29,8 @@ import PenguinJamNewYears2025Es from "./es/penguinjamnewyears2025.md?raw";
 import PenguinJamNewYears2025Ja from "./ja/penguinjamnewyears2025.md?raw";
 import PenguinJamNewYears2025Ru from "./ru/penguinjamnewyears2025.md?raw";
 import PenguinJamNewYears2025Tr from "./tr/penguinjamnewyears2025.md?raw";
+// coolevent 2026 very reals
+import cooleventEn from "./en/coolevent.md?raw";
 
 export default {
     "example": {
@@ -67,5 +69,8 @@ export default {
         "ja": PenguinJamNewYears2025Ja,
         "ru": PenguinJamNewYears2025Ru,
         "tr": PenguinJamNewYears2025Tr,
+    },
+    "coolevent": {
+        "en": cooleventEn,
     },
 };

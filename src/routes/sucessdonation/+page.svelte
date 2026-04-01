@@ -26,11 +26,11 @@
   <meta property="twitter:title" content="PenguinMod - Thanks for donating!" />
   <meta
     name="description"
-    content="Help support PenguinMod and it's development!"
+    content="Help support TutelMod and it's development!"
   />
   <meta
     property="twitter:description"
-    content="Help support PenguinMod and it's development!"
+    content="Help support TutelMod and it's development!"
   />
   <meta property="og:url" content="https://penguinmod.com/support" />
   <meta property="twitter:url" content="https://penguinmod.com/support" />
@@ -56,7 +56,7 @@
   <div class="section-content">
     <p>
       <LocalizedText
-          text="We hope you continue to support PenguinMod, even if it's not with money but by sharing and using our service!"
+          text="We hope you continue to support TutelMod, even if it's not with money but by sharing and using our service!"
           key="donated.subtitle"
           lang={currentLang}
       />
@@ -78,14 +78,14 @@
             ) || TranslationHandler.text(
               "donated.perks.howto",
               'en'
-            )).replace('{{EMAIL}}', `<a href="mailto:penguinmodhelp@gmail.com">penguinmodhelp@gmail.com</a>`)}
+            )).replace('{{EMAIL}}', `<a href="mailto:tutelmod@gmail.com">tutelmod@gmail.com</a>`)}
           </i>
         </p>
     </div>
     <div style="height: 32px;" />
     <p>
       <LocalizedText
-          text="Your donation can help us fund PenguinMod's server and domain!"
+          text="Your donation can help us fund TutelMod's server and domain!"
           key="donated.location"
           lang={currentLang}
       />
