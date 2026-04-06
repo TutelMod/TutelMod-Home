@@ -23,14 +23,14 @@ Language.onChange((lang) => {
 </script>
 
 <svelte:head>
-    <title>PenguinMod - Privacy Policy</title>
-    <meta name="title" content="PenguinMod - Privacy Policy" />
-    <meta property="og:title" content="PenguinMod - Privacy Policy" />
-    <meta property="twitter:title" content="PenguinMod - Privacy Policy">
-    <meta name="description" content="The status of your privacy while using PenguinMod.">
-    <meta property="twitter:description" content="The status of your privacy while using PenguinMod.">
-    <meta property="og:url" content="https://penguinmod.com/privacy">
-    <meta property="twitter:url" content="https://penguinmod.com/privacy">
+    <title>TutelMod - Privacy Policy</title>
+    <meta name="title" content="TutelMod - Privacy Policy" />
+    <meta property="og:title" content="TutelMod - Privacy Policy" />
+    <meta property="twitter:title" content="TutelMod - Privacy Policy">
+    <meta name="description" content="The status of your privacy while using TutelMod.">
+    <meta property="twitter:description" content="The status of your privacy while using TutelMod.">
+    <meta property="og:url" content="https://tutelmod.github.io/privacy">
+    <meta property="twitter:url" content="https://tutelmod.github.io/privacy">
 </svelte:head>
 
 <NavigationBar />
@@ -376,8 +376,8 @@ Language.onChange((lang) => {
 
         <h2>Contact</h2>
 
-        <p>Email us at <a href="mailto:penguinmodhelp@gmail.com">penguinmodhelp@gmail.com</a></p>
-        <p>Join <a href="https://discord.gg/NZ9MBMYTZh">our Discord Server</a></p>
+        <p>Email us at <a href="mailto:tutelmod@gmail.com">tutelmod@gmail.com</a></p>
+        <p>Join <a href="https://discord.gg/SbC4aXGb9A">our Discord Server</a></p>
         
         <div style="width: 100%; height: 32px;"></div>
 

@@ -98,14 +98,14 @@
 </script>
     
 <svelte:head>
-    <title>PenguinMod - Reset Password</title>
-    <meta name="title" content="PenguinMod - Reset Password" />
-    <meta property="og:title" content="PenguinMod - Reset Password" />
-    <meta property="twitter:title" content="PenguinMod - Reset Password" />
-    <meta name="description" content="Reset your password for PenguinMod to regain access to your account with a new password" />
-    <meta property="twitter:description" content="Reset your password for PenguinMod to regain access to your account with a new password" />
-    <meta property="og:url" content="https://penguinmod.com/resetpassword">
-    <meta property="twitter:url" content="https://penguinmod.com/resetpassword">
+    <title>TutelMod - Reset Password</title>
+    <meta name="title" content="TutelMod - Reset Password" />
+    <meta property="og:title" content="TutelMod - Reset Password" />
+    <meta property="twitter:title" content="TutelMod - Reset Password" />
+    <meta name="description" content="Reset your password for TutelMod to regain access to your account with a new password" />
+    <meta property="twitter:description" content="Reset your password for TutelMod to regain access to your account with a new password" />
+    <meta property="og:url" content="https://tutelmod.github.io/resetpassword">
+    <meta property="twitter:url" content="https://tutelmod.github.io/resetpassword">
 </svelte:head>
     
 <NavigationBar />

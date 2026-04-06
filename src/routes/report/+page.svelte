@@ -249,20 +249,20 @@
 </script>
 
 <svelte:head>
-    <title>PenguinMod - Report</title>
-    <meta name="title" content="PenguinMod - Report" />
-    <meta property="og:title" content="PenguinMod - Report" />
-    <meta property="twitter:title" content="PenguinMod - Report" />
+    <title>TutelMod - Report</title>
+    <meta name="title" content="TutelMod - Report" />
+    <meta property="og:title" content="TutelMod - Report" />
+    <meta property="twitter:title" content="TutelMod - Report" />
     <meta
         name="description"
-        content="Report a specific project or user on PenguinMod."
+        content="Report a specific project or user on TutelMod."
     />
     <meta
         property="twitter:description"
-        content="Report a specific project or user on PenguinMod."
+        content="Report a specific project or user on TutelMod."
     />
-    <meta property="og:url" content="https://penguinmod.com/report" />
-    <meta property="twitter:url" content="https://penguinmod.com/report" />
+    <meta property="og:url" content="https://tutelmod.github.io/report" />
+    <meta property="twitter:url" content="https://tutelmod.github.io/report" />
 </svelte:head>
 
 <NavigationBar />

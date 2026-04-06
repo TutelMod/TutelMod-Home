@@ -79,7 +79,7 @@ export default {
     /**
      * TutelMod's Discord invite
      */
-    discord: "https://discord.gg/NZ9MBMYTZh",
+    discord: "https://discord.gg/SbC4aXGb9A",
 
     /**
      * Scratch's website

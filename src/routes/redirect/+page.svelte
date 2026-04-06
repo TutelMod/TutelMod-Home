@@ -41,7 +41,7 @@
         urlOrigin = urlObj.hostname;
     } catch {
         if (!browser) {
-            url = 'https://penguinmod.com/';
+            url = 'https://tutelmod.github.io/';
             urlOrigin = 'Unknown';
         } else {
             location.href = location.origin + '/error?error=404';
@@ -66,14 +66,14 @@
 </script>
 
 <svelte:head>
-    <title>PenguinMod - Redirecting</title>
-    <meta name="title" content="PenguinMod - Home" />
-    <meta property="og:title" content="PenguinMod - Home" />
-    <meta property="twitter:title" content="PenguinMod - Home">
+    <title>TutelMod - Redirecting</title>
+    <meta name="title" content="TutelMod - Home" />
+    <meta property="og:title" content="TutelMod - Home" />
+    <meta property="twitter:title" content="TutelMod - Home">
     <meta name="description" content="The area where featured projects and community stuff & info is shown.">
     <meta property="twitter:description" content="The area where featured projects and community stuff & info is shown.">
-    <meta property="og:url" content="https://penguinmod.com/">
-    <meta property="twitter:url" content="https://penguinmod.com/">
+    <meta property="og:url" content="https://tutelmod.github.io/">
+    <meta property="twitter:url" content="https://tutelmod.github.io/">
 </svelte:head>
 
 <NavigationBar />
@@ -88,14 +88,14 @@
     />
     <h1>
         <LocalizedText
-            text="You are leaving PenguinMod"
+            text="You are leaving TutelMod"
             key="redirect.title"
             lang={currentLang}
         />
     </h1>
     <p>
         <LocalizedText
-            text="You are leaving PenguinMod to visit &qt;{"{{WEBSITE_URL}}"}. Content on this site may not be safe for everyone."
+            text="You are leaving TutelMod to visit &qt;{"{{WEBSITE_URL}}"}. Content on this site may not be safe for everyone."
             key="redirect.message1"
             html={true}
             replace={{
