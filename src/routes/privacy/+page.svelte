@@ -344,7 +344,7 @@ Language.onChange((lang) => {
             <br>
             <br>
             PenguinMod will not ask the user to confirm this action if the project is compiled using
-            <a href="{PUBLIC_STUDIO_URL}/PenguinMod-Packager/">the PenguinMod packager.</a>
+            <a href="{PUBLIC_STUDIO_URL}/TutelMod-Packager/">the TutelMod packager.</a>
             <br>
             In this case it is up to the user's browser to prompt the user if they would like to allow the website
             to access their location.
