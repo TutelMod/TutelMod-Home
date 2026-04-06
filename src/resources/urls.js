@@ -67,17 +67,17 @@ export default {
     home: "https://penguinmod.com/",
 
     /**
-     * PenguinMod's packager page
+     * TutelMod's packager page
      */
-    packager: `${PUBLIC_STUDIO_URL}/PenguinMod-Packager/`,
+    packager: `${PUBLIC_STUDIO_URL}/TutelMod-Packager/`,
 
     /**
-     * PenguinMod's unofficial wiki
+     * TutelMod's unofficial wiki
      */
-    wiki: "https://wiki.penguinmod.com/wiki/Main_Page",
+    wiki: "https://wiki.tutelmod.com/wiki/Main_Page",
 
     /**
-     * PenguinMod's Discord invite
+     * TutelMod's Discord invite
      */
     discord: "https://discord.gg/NZ9MBMYTZh",
 
@@ -92,9 +92,9 @@ export default {
     turbowarp: "https://turbowarp.org",
 
     /**
-     * PenguinMod's github page
+     * TutelMod's github page
      */
-    github: "https://github.com/PenguinMod/",
+    github: "https://github.com/TutelMod/",
 
     /**
      * PenguinMod's basic API
