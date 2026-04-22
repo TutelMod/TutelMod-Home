@@ -33,7 +33,7 @@
     }
 
     div {
-        background: #009ccc;
+        background: #00cc33;
         display: flex;
         align-items: center;
         height: 100%;
