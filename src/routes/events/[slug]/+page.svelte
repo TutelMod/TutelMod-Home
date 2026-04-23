@@ -114,14 +114,14 @@
 </script>
 
 <svelte:head>
-    <title>PenguinMod - {headerText}</title>
-    <meta name="title"                   content="PenguinMod - {headerText}" />
-    <meta property="og:title"            content="PenguinMod - {headerText}" />
-    <meta property="twitter:title"       content="PenguinMod - {headerText}">
-    <meta name="description"             content="View this event on PenguinMod's website!">
-    <meta property="twitter:description" content="View this event on PenguinMod's website!">
-    <meta property="og:url"              content="https://penguinmod.com/events/{eventPath}">
-    <meta property="twitter:url"         content="https://penguinmod.com/events/{eventPath}">
+    <title>TutelMod - {headerText}</title>
+    <meta name="title"                   content="TutelMod - {headerText}" />
+    <meta property="og:title"            content="TutelMod - {headerText}" />
+    <meta property="twitter:title"       content="TutelMod - {headerText}">
+    <meta name="description"             content="View this event on TutelMod's website!">
+    <meta property="twitter:description" content="View this event on TutelMod's website!">
+    <meta property="og:url"              content="https://tutelmod.com/events/{eventPath}">
+    <meta property="twitter:url"         content="https://tutelmod.com/events/{eventPath}">
 </svelte:head>
 
 <div class="container">

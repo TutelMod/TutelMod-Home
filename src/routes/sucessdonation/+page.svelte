@@ -20,10 +20,10 @@
 </script>
 
 <svelte:head>
-  <title>PenguinMod - Thanks for donating!</title>
-  <meta name="title" content="PenguinMod - Thanks for donating!" />
-  <meta property="og:title" content="PenguinMod - Thanks for donating!" />
-  <meta property="twitter:title" content="PenguinMod - Thanks for donating!" />
+  <title>TutelMod - Thanks for donating!</title>
+  <meta name="title" content="TutelMod - Thanks for donating!" />
+  <meta property="og:title" content="TutelMod - Thanks for donating!" />
+  <meta property="twitter:title" content="TutelMod - Thanks for donating!" />
   <meta
     name="description"
     content="Help support TutelMod and it's development!"
@@ -32,8 +32,8 @@
     property="twitter:description"
     content="Help support TutelMod and it's development!"
   />
-  <meta property="og:url" content="https://penguinmod.com/support" />
-  <meta property="twitter:url" content="https://penguinmod.com/support" />
+  <meta property="og:url" content="https://tutelmod.com/support" />
+  <meta property="twitter:url" content="https://tutelmod.com/support" />
 </svelte:head>
 
 <NavigationBar />

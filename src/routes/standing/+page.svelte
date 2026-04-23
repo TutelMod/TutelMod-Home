@@ -99,14 +99,14 @@
 </script>
 
 <svelte:head>
-    <title>PenguinMod - Standing</title>
-    <meta name="title" content="PenguinMod - Standing" />
-    <meta property="og:title" content="PenguinMod - Standing" />
-    <meta property="twitter:title" content="PenguinMod - Standing" />
+    <title>TutelMod - Standing</title>
+    <meta name="title" content="TutelMod - Standing" />
+    <meta property="og:title" content="TutelMod - Standing" />
+    <meta property="twitter:title" content="TutelMod - Standing" />
     <meta name="description" content="See your account standing." />
     <meta property="twitter:description" content="See your account standing." />
-    <meta property="og:url" content="https://penguinmod.com/standing" />
-    <meta property="twitter:url" content="https://penguinmod.com/standing" />
+    <meta property="og:url" content="https://tutelmod.com/standing" />
+    <meta property="twitter:url" content="https://tutelmod.com/standing" />
 </svelte:head>
 
 <NavigationBar />
@@ -139,7 +139,7 @@
                     </div>
                     <AccountStatus
                         username={deletedUsername}
-                        image="https://library.penguinmod.com/files/emojis/exclamation.png"
+                        image="https://library.tutelmod.com/files/emojis/exclamation.png"
                         showname={!!deletedUsername}
                         showpfp={true}
                         showdeleted={true}

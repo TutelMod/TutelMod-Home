@@ -41,7 +41,7 @@
         urlOrigin = urlObj.hostname;
     } catch {
         if (!browser) {
-            url = 'https://tutelmod.github.io/';
+            url = 'https://tutelmod.com/';
             urlOrigin = 'Unknown';
         } else {
             location.href = location.origin + '/error?error=404';
@@ -72,8 +72,8 @@
     <meta property="twitter:title" content="TutelMod - Home">
     <meta name="description" content="The area where featured projects and community stuff & info is shown.">
     <meta property="twitter:description" content="The area where featured projects and community stuff & info is shown.">
-    <meta property="og:url" content="https://tutelmod.github.io/">
-    <meta property="twitter:url" content="https://tutelmod.github.io/">
+    <meta property="og:url" content="https://tutelmod.com/">
+    <meta property="twitter:url" content="https://tutelmod.com/">
 </svelte:head>
 
 <NavigationBar />

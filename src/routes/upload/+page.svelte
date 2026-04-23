@@ -473,7 +473,7 @@
                         message = TranslationHandler.textSafe(
                             "uploading.error.illegalwordsused",
                             currentLang,
-                            "Words or phrases were used that are not allowed in PenguinMod. Please check through your project's details for any inappropriate words or phrases."
+                            "Words or phrases were used that are not allowed in TutelMod. Please check through your project's details for any inappropriate words or phrases."
                         );
                         break;
                     default:
@@ -776,20 +776,20 @@
 </script>
 
 <svelte:head>
-    <title>PenguinMod - Upload</title>
-    <meta name="title" content="PenguinMod - Upload" />
-    <meta property="og:title" content="PenguinMod - Upload" />
-    <meta property="twitter:title" content="PenguinMod - Upload" />
+    <title>TutelMod - Upload</title>
+    <meta name="title" content="TutelMod - Upload" />
+    <meta property="og:title" content="TutelMod - Upload" />
+    <meta property="twitter:title" content="TutelMod - Upload" />
     <meta
         name="description"
-        content="Upload your project to PenguinMod, for the whole world to see."
+        content="Upload your project to TutelMod, for the whole world to see."
     />
     <meta
         property="twitter:description"
-        content="Upload your project to PenguinMod, for the whole world to see."
+        content="Upload your project to TutelMod, for the whole world to see."
     />
-    <meta property="og:url" content="https://penguinmod.com/upload" />
-    <meta property="twitter:url" content="https://penguinmod.com/upload" />
+    <meta property="og:url" content="https://tutelmod.com/upload" />
+    <meta property="twitter:url" content="https://tutelmod.com/upload" />
 </svelte:head>
 
 <NavigationBar />
@@ -1028,7 +1028,7 @@
                 class="emoji-picker-button"
             >
                 <img
-                    src={`https://library.penguinmod.com/files/emojis/${emojiPickerRandomEmoji}.png`}
+                    src={`https://library.tutelmod.com/files/emojis/${emojiPickerRandomEmoji}.png`}
                     alt="Emoji"
                     title="Pick an emoji"
                     loading="lazy"
@@ -1080,7 +1080,7 @@
                                             placeEmojiInTextbox(emoji)}
                                     >
                                         <img
-                                            src={`https://library.penguinmod.com/files/emojis/${emoji}.png`}
+                                            src={`https://library.tutelmod.com/files/emojis/${emoji}.png`}
                                             alt={`:${emoji}:`}
                                             title={`:${emoji}:`}
                                             draggable="false"

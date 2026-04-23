@@ -29,8 +29,8 @@
         <meta property="twitter:title" content="TutelMod - Terms of Service">
         <meta name="description" content="Terms you must follow if you would like to use TutelMod.">
         <meta property="twitter:description" content="Terms you must follow if you would like to use TutelMod.">
-        <meta property="og:url" content="https://penguinmod.com/terms">
-        <meta property="twitter:url" content="https://penguinmod.com/terms">
+        <meta property="og:url" content="https://tutelmod.com/terms">
+        <meta property="twitter:url" content="https://tutelmod.com/terms">
     </svelte:head>
     
     <NavigationBar />
@@ -49,10 +49,10 @@
             <!-- some things are intentionally not formatted as they are in the HTML file on the website -->
             <p>
                 This document applies to
-                <a href="https://penguinmod.com">https://penguinmod.com</a>,
+                <a href="https://tutelmod.com">https://tutelmod.com</a>,
                 <a href="{PUBLIC_STUDIO_URL}">{PUBLIC_STUDIO_URL}</a>,
-                <a href="https://extensions.penguinmod.com">https://extensions.penguinmod.com</a>,
-                <a href="https://projects.penguinmod.com">https://projects.penguinmod.com</a>,
+                <a href="https://extensions.tutelmod.com">https://extensions.tutelmod.com</a>,
+                <a href="https://projects.tutelmod.com">https://projects.tutelmod.com</a>,
                 and any other tutelmod.com subdomains.
             </p>
             <p>
@@ -101,12 +101,12 @@
                 exploiting bugs to cause harm, botting, manipulating statistics like likes, votes, and views,
                 circumventing bans or deletions, or incentivizing others to break TutelMod's rules, is strictly prohibited.
                 <br>
-                Violations may lead to limiting your account's access to certain features, account deletion, or permanent loss of access to PenguinMod's services.
+                Violations may lead to limiting your account's access to certain features, account deletion, or permanent loss of access to TutelMod's services.
             </p>
             <p>
                 Using TutelMod's services to engage in, promote, or facilitate illegal activities, including but not limited to breaking laws in your country, region, or area, is strictly prohibited.
                 <br>
-                Violations may lead to limiting your account's access to certain features, account deletion, or permanent loss of access to PenguinMod's services.
+                Violations may lead to limiting your account's access to certain features, account deletion, or permanent loss of access to TutelMod's services.
                 <br>
                 Serious offenses may result in your account information being shared with law enforcement authorities.
             </p>

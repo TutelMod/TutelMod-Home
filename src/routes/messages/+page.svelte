@@ -291,17 +291,17 @@
 </script>
 
 <svelte:head>
-    <title>PenguinMod - Messages</title>
-    <meta name="title" content="PenguinMod - Messages" />
-    <meta property="og:title" content="PenguinMod - Messages" />
-    <meta property="twitter:title" content="PenguinMod - Messages" />
+    <title>TutelMod - Messages</title>
+    <meta name="title" content="TutelMod - Messages" />
+    <meta property="og:title" content="TutelMod - Messages" />
+    <meta property="twitter:title" content="TutelMod - Messages" />
     <meta name="description" content="See your messages or alerts." />
     <meta
         property="twitter:description"
         content="See your messages or alerts."
     />
-    <meta property="og:url" content="https://penguinmod.com/messages" />
-    <meta property="twitter:url" content="https://penguinmod.com/messages" />
+    <meta property="og:url" content="https://tutelmod.com/messages" />
+    <meta property="twitter:url" content="https://tutelmod.com/messages" />
 </svelte:head>
 
 <NavigationBar />

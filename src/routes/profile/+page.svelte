@@ -145,7 +145,7 @@
         "My Favorite",
         "My Favorite Things",
         "What I like",
-        "Why I use PenguinMod",
+        "Why I use TutelMod",
         "My Life's Work",
         "What I Do",
         "In my spare time...",
@@ -302,7 +302,7 @@
         return title.replace(emojiRegex, (match) => {
             const emojiName = match.replace(/\:/gim, "");
             return `<img
-                src="https://library.penguinmod.com/files/emojis/${emojiName}.png"
+                src="https://library.tutelmod.com/files/emojis/${emojiName}.png"
                 alt=":${emojiName}:"
                 title=":${emojiName}:"
                 style="width:1.2rem;vertical-align: middle;"
@@ -632,12 +632,14 @@
         };
 
     const doesntShowRedirectURLs = [
-        /https:\/\/([a-z]+\.|)penguinmod\.com/i,
+    /https:\/\/([a-z]+\.|)tutelmod\.com/i,    
+    /https:\/\/([a-z]+\.|)penguinmod\.com/i,
         /https:\/\/([a-z]+\.|)scratch\.org/i,
         /https:\/\/([a-z]+\.|)scratch\.mit\.edu/i,
         /https:\/\/(?!share\.)([a-z]+\.)?turbowarp\.org/i,
     ];
     const safeURLs = [
+        /https:\/\/([a-z]+\.|)tutelmod\.com/i,
         /https:\/\/([a-z]+\.|)penguinmod\.com/i,
         /https:\/\/([a-z]+\.|)scratch\.org/i,
         /https:\/\/([a-z]+\.|)scratch\.mit\.edu/i,
@@ -668,7 +670,7 @@
             const base64 = encodeURIComponent(btoa(href));
             tokens[idx].attrSet(
                 "href",
-                `https://penguinmod.com/redirect?t=${base64}`,
+                `https://tutelmod.com/redirect?t=${base64}`,
             );
         }
 
@@ -726,14 +728,14 @@
                 if (/^\d{6,}$/.test(id)) {
                     return `<a href="${PUBLIC_STUDIO_URL}/#${id}" target="_blank">#${id}</a>`;
                 }
-                return `<a href="https://penguinmod.com/search?q=%23${id}">#${id}</a>`;
+                return `<a href="https://tutelmod.com/search?q=%23${id}">#${id}</a>`;
             });
             textChanged = true;
         }
         if (newText.match(regexRules.user)) {
             newText = newText.replace(regexRules.user, function (name) {
                 name = name.replace("@", "");
-                return `<a href="https://penguinmod.com/profile?user=${name}">@${name}</a>`;
+                return `<a href="https://tutelmod.com/profile?user=${name}">@${name}</a>`;
             });
             textChanged = true;
         }
@@ -741,7 +743,7 @@
             newText = newText.replace(regexRules.emoji, function (text) {
                 const emojiName = text.replace(/:/gim, "");
                 return `<img
-                    src="https://library.penguinmod.com/files/emojis/${emojiName}.png"
+                    src="https://library.tutelmod.com/files/emojis/${emojiName}.png"
                     alt="${emojiName}"
                     title=":${emojiName}:"
                     class="profile-bio-emoji"
@@ -816,26 +818,26 @@
 </script>
 
 <svelte:head>
-    <title>PenguinMod - {user ? user : "Profile"}</title>
-    <meta name="title" content="PenguinMod - {user ? user : 'User Profile'}" />
+    <title>TutelMod - {user ? user : "Profile"}</title>
+    <meta name="title" content="TutelMod - {user ? user : 'User Profile'}" />
     <meta
         property="og:title"
-        content="PenguinMod - {user ? user : 'User Profile'}"
+        content="TutelMod - {user ? user : 'User Profile'}"
     />
     <meta
         property="twitter:title"
-        content="PenguinMod - {user ? user : 'User Profile'}"
+        content="TutelMod - {user ? user : 'User Profile'}"
     />
     <meta
         name="description"
-        content="View {user ? user : 'this user'}'s profile on PenguinMod."
+        content="View {user ? user : 'this user'}'s profile on TutelMod."
     />
     <meta
         property="twitter:description"
-        content="View {user ? user : 'this user'}'s profile on PenguinMod."
+        content="View {user ? user : 'this user'}'s profile on TutelMod."
     />
-    <meta property="og:url" content="https://penguinmod.com/profile" />
-    <meta property="twitter:url" content="https://penguinmod.com/profile" />
+    <meta property="og:url" content="https://tutelmod.com/profile" />
+    <meta property="twitter:url" content="https://tutelmod.com/profile" />
 </svelte:head>
 
 <NavigationBar />
@@ -1163,7 +1165,7 @@
                                             class="emoji-picker-button"
                                         >
                                             <img
-                                                src={`https://library.penguinmod.com/files/emojis/${emojiPickerRandomEmoji}.png`}
+                                                src={`https://library.tutelmod.com/files/emojis/${emojiPickerRandomEmoji}.png`}
                                                 alt="Emoji"
                                                 title="Pick an emoji"
                                                 loading="lazy"
@@ -1232,7 +1234,7 @@
                                                                         )}
                                                                 >
                                                                     <img
-                                                                        src={`https://library.penguinmod.com/files/emojis/${emoji}.png`}
+                                                                        src={`https://library.tutelmod.com/files/emojis/${emoji}.png`}
                                                                         alt={`:${emoji}:`}
                                                                         title={`:${emoji}:`}
                                                                         draggable="false"

@@ -103,14 +103,14 @@
 </script>
     
 <svelte:head>
-    <title>PenguinMod - Sign Up</title>
-    <meta name="title" content="PenguinMod - Sign Up" />
-    <meta property="og:title" content="PenguinMod - Sign Up" />
-    <meta property="twitter:title" content="PenguinMod - Sign Up">
-    <meta name="description" content="Sign up for PenguinMod to start sharing your projects!">
-    <meta property="twitter:description" content="Sign up for PenguinMod to start sharing your projects!">
-    <meta property="og:url" content="https://penguinmod.com/forgotpassword">
-    <meta property="twitter:url" content="https://penguinmod.com/forgotpassword">
+    <title>TutelMod - Sign Up</title>
+    <meta name="title" content="TutelMod - Sign Up" />
+    <meta property="og:title" content="TutelMod - Sign Up" />
+    <meta property="twitter:title" content="TutelMod - Sign Up">
+    <meta name="description" content="Sign up for TutelMod to start sharing your projects!">
+    <meta property="twitter:description" content="Sign up for TutelMod to start sharing your projects!">
+    <meta property="og:url" content="https://tutelmod.com/forgotpassword">
+    <meta property="twitter:url" content="https://tutelmod.com/forgotpassword">
 </svelte:head>
     
 <NavigationBar />
@@ -125,7 +125,7 @@
                 alt="Profiles"
             />
         </div>
-        <h1 style="margin-block:4px">PenguinMod</h1>
+        <h1 style="margin-block:4px">TutelMod</h1>
         <p>
             <LocalizedText
                 text="Forgot your password? No problem! Enter your email below to reset it."

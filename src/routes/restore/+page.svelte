@@ -6,6 +6,7 @@
     import Button from "$lib/Button/Button.svelte";
 
     import { PUBLIC_STUDIO_URL } from "$env/static/public";
+    import { trusted } from "svelte/internal";
 
     let opened = false;
 
@@ -59,14 +60,14 @@
 </script>
 
 <svelte:head>
-    <title>PenguinMod - Restore</title>
-    <meta name="title" content="PenguinMod - Home" />
-    <meta property="og:title" content="PenguinMod - Home" />
-    <meta property="twitter:title" content="PenguinMod - Home">
+    <title>TutelMod - Restore</title>
+    <meta name="title" content="TutelMod - Home" />
+    <meta property="og:title" content="TutelMod - Home" />
+    <meta property="twitter:title" content="TutelMod - Home">
     <meta name="description" content="The area where featured projects and community stuff & info is shown.">
     <meta property="twitter:description" content="The area where featured projects and community stuff & info is shown.">
-    <meta property="og:url" content="https://penguinmod.com/restore">
-    <meta property="twitter:url" content="https://penguinmod.com/restore">
+    <meta property="og:url" content="https://tutelmod.com/restore">
+    <meta property="twitter:url" content="https://tutelmod.com/restore">
 </svelte:head>
 
 <NavigationBar />

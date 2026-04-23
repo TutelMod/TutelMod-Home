@@ -162,14 +162,14 @@
 </script>
 
 <svelte:head>
-    <title>PenguinMod - My Stuff</title>
-    <meta name="title"                   content="PenguinMod - My Stuff" />
-    <meta property="og:title"            content="PenguinMod - My Stuff" />
-    <meta property="twitter:title"       content="PenguinMod - My Stuff">
+    <title>TutelMod - My Stuff</title>
+    <meta name="title"                   content="TutelMod - My Stuff" />
+    <meta property="og:title"            content="TutelMod - My Stuff" />
+    <meta property="twitter:title"       content="TutelMod - My Stuff">
     <meta name="description"             content="View your own projects & content.">
     <meta property="twitter:description" content="View your own projects & content.">
-    <meta property="og:url"              content="https://penguinmod.com/mystuff">
-    <meta property="twitter:url"         content="https://penguinmod.com/mystuff">
+    <meta property="og:url"              content="https://tutelmod.com/mystuff">
+    <meta property="twitter:url"         content="https://tutelmod.com/mystuff">
 </svelte:head>
 
 <NavigationBar />

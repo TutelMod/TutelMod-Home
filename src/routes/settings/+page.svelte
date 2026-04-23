@@ -396,17 +396,17 @@
 </script>
 
 <svelte:head>
-    <title>PenguinMod - Settings</title>
-    <meta name="title" content="PenguinMod - Settings" />
-    <meta property="og:title" content="PenguinMod - Settings" />
-    <meta property="twitter:title" content="PenguinMod - Settings" />
+    <title>TutelMod - Settings</title>
+    <meta name="title" content="TutelMod - Settings" />
+    <meta property="og:title" content="TutelMod - Settings" />
+    <meta property="twitter:title" content="TutelMod - Settings" />
     <meta name="description" content="View your account settings." />
     <meta
         property="twitter:description"
         content="View your account settings."
     />
-    <meta property="og:url" content="https://penguinmod.com/settings" />
-    <meta property="twitter:url" content="https://penguinmod.com/settings" />
+    <meta property="og:url" content="https://tutelmod.com/settings" />
+    <meta property="twitter:url" content="https://tutelmod.com/settings" />
 </svelte:head>
 
 <NavigationBar bind:pfpkey={pfpReload} />

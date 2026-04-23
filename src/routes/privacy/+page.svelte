@@ -49,11 +49,11 @@ Language.onChange((lang) => {
         <!-- some things are intentionally not formatted as they are in the HTML file on the website -->
         <p>
             This document applies to
-            <a href="https://penguinmod.com">https://penguinmod.com</a>,
+            <a href="https://tutelmod.com">https://tutelmod.com</a>,
             <a href="{PUBLIC_STUDIO_URL}">{PUBLIC_STUDIO_URL}</a>,
-            <a href="https://extensions.penguinmod.com">https://extensions.penguinmod.com</a>,
-            <a href="https://projects.penguinmod.com">https://projects.penguinmod.com</a>,
-            and any other penguinmod.com subdomains.
+            <a href="https://extensions.tutelmod.com">https://extensions.tutelmod.com</a>,
+            <a href="https://projects.tutelmod.com">https://projects.tutelmod.com</a>,
+            and any other tutelmod.com subdomains.
         </p>
         <p>
             You may see websites such as <a href="https://scratch.mit.edu/">"Scratch"</a>,
@@ -63,9 +63,9 @@ Language.onChange((lang) => {
         </p>
         <p>
             A "Service Administrator", "Admin", "Moderator", "Mod" or "Administrator" is a person who can either
-            directly access the server files for PenguinMod,
+            directly access the server files for TutelMod,
             or a person who can contact the server host that is able to access the server files and server process.
-            "Host" may also refer to the server host of PenguinMod's project sharing.
+            "Host" may also refer to the server host of TutelMod's project sharing.
         </p>
         <p>
             A "Project Moderator" is a person who has the ability to remove projects or content from those projects,
@@ -95,7 +95,7 @@ Language.onChange((lang) => {
             This temporary amount of time will be around 1 week, and this applies to all "temporarily stored" content listed here.
         </p>
         <p>
-            PenguinMod Project Moderators and Service Administrators can identify accounts that share the same IP address as another account.
+            TutelMod Project Moderators and Service Administrators can identify accounts that share the same IP address as another account.
         </p>
 
         <h2>How We Use Your Date of Birth and Country Information</h2>
@@ -109,9 +109,9 @@ Language.onChange((lang) => {
 
         <h2>Advertisements</h2>
         <p>
-            When advertisements are served on any PenguinMod page, third parties may be placing and reading cookies on your browser,
-            or using web beacons to collect information. Your provided birthday and country is not shared by PenguinMod to these third-parties,
-            though they may obtain this information from methods or websites outside of PenguinMod's control. You may be able to
+            When advertisements are served on any TutelMod page, third parties may be placing and reading cookies on your browser,
+            or using web beacons to collect information. Your provided birthday and country is not shared by TutelMod to these third-parties,
+            though they may obtain this information from methods or websites outside of TutelMod's control. You may be able to
             find more information here:
         </p>
         <ul>
@@ -121,16 +121,16 @@ Language.onChange((lang) => {
 
         <h2>Content Recommendations</h2>
         <p>
-            Content recommended to you on the PenguinMod platform is based on previous projects and content you have seen on PenguinMod before.
+            Content recommended to you on the TutelMod platform is based on previous projects and content you have seen on TutelMod before.
             We do not use data provided by third-parties or information about where you live to recommend you content.
             You will only have content recommended to you when doing these actions:
         </p>
         <ul>
-            <li>You have opened a project on PenguinMod to view it.</li>
-            <li>You liked a PenguinMod project.</li>
-            <li>You voted for a PenguinMod project.</li>
-            <li>You interacted with a PenguinMod project.</li>
-            <li>You followed another user on PenguinMod.</li>
+            <li>You have opened a project on TutelMod to view it.</li>
+            <li>You liked a TutelMod project.</li>
+            <li>You voted for a TutelMod project.</li>
+            <li>You interacted with a TutelMod project.</li>
+            <li>You followed another user on TutelMod.</li>
         </ul>
         
         <h2>Project Sharing & Accounts/Profiles</h2>
@@ -149,7 +149,7 @@ Language.onChange((lang) => {
                 <li>your IP address</li>
                 <li>your general location (using your IP address)</li>
                 <li>your public account information on their respective platforms
-                    (in some cases, emails or other information the login method provides to PenguinMod on authentication)</li>
+                    (in some cases, emails or other information the login method provides to TutelMod on authentication)</li>
             </ul>
 
         <p>
@@ -158,12 +158,12 @@ Language.onChange((lang) => {
         <p>
             Any logins to an account using any login method will also have that IP address and login date stored on the account.
             <br>
-            PenguinMod may require an email to be attached to an account for certain features or account security.
+            TutelMod may require an email to be attached to an account for certain features or account security.
             <br>
             This will be stored on the account if provided.
         </p>
         <p>
-            If you provide a date of birth or country to PenguinMod, it will be stored on your account.
+            If you provide a date of birth or country to TutelMod, it will be stored on your account.
             <br>
             Certain content may be blocked or inaccessible depending on what your date of birth or country is.
         </p>
@@ -184,7 +184,7 @@ Language.onChange((lang) => {
         <p>
             Uploaded projects will be publicly visible to all users on the website.
             Any user may report a project or report another user to Project Moderators if they believe the
-            <a href="https://penguinmod.com/guidelines/uploading">Uploading Guidelines</a> have been violated.
+            <a href="https://tutelmod.com/guidelines/uploading">Uploading Guidelines</a> have been violated.
         </p>
             Project Information available to users, Project Moderators and Service Administrators include:
             <ul>
@@ -223,18 +223,18 @@ Language.onChange((lang) => {
             information about the project and account's public information will be sent to the third-party site <a href="https://discord.com/">"Discord"</a>.
         </p>
         <p>The purpose of this logging is for site moderators to easily find
-            projects that violate the <a href="https://penguinmod.com/guidelines/uploading">Uploading Guidelines</a>
+            projects that violate the <a href="https://tutelmod.com/guidelines/uploading">Uploading Guidelines</a>
             or see any previous actions other moderators have done to a project.
         </p>
         <p>The purpose of logging "featured" projects is to allow users to view projects other users may enjoy or like.</p>
         <p>When an account is banned, has punishments placed on it, or gets it's information updated by a moderator, information about the
             account will be sent to the third-party site <a href="https://discord.com/">"Discord"</a>.
         </p>
-        <p>When an account sends a message to a moderator, receives a message from a moderator or uses language not appropriate for PenguinMod on the platform,
+        <p>When an account sends a message to a moderator, receives a message from a moderator or uses language not appropriate for TutelMod on the platform,
             account will be sent to the third-party site <a href="https://discord.com/">"Discord"</a>.
         </p>
-        <p>The purpose of this logging is for site moderators to handle or respond to users that may have violated PenguinMod's
-            <a href="https://penguinmod.com/terms">Terms of Service</a>.
+        <p>The purpose of this logging is for site moderators to handle or respond to users that may have violated TutelMod's
+            <a href="https://tutelmod.com/terms">Terms of Service</a>.
         </p>
         <p>Information about accounts, projects, or other content on the platform may be sent to the third-party site <a href="https://discord.com/">"Discord"</a>
         for any reason that deems it neccessary.
@@ -242,7 +242,7 @@ Language.onChange((lang) => {
         <p>
             We may disclose your information to law enforcement agencies, government authorities,
             or other third parties if we believe it is necessary to comply with legal obligations or ensure the safety of our users, developers and staff.
-            Requests for PenguinMod user information are expected to be sent to us using one of our contact methods.
+            Requests for TutelMod user information are expected to be sent to us using one of our contact methods.
         </p>
 
         <h2>YouTube Embedded Content</h2>
@@ -267,11 +267,11 @@ Language.onChange((lang) => {
         <h2>Other services</h2>
         <p>When using cloud variables, the project ID and your username may be logged for up to 14 days.</p>
         <p>Your randomly generated or chosen username is stored in your browser's local storage. To mitigate the potential to track users with this feature, all randomly generated usernames are anonymized before the server receives them. However, usernames explicitly set by a user may be logged to help prevent abuse.</p>
-        <p>If a user is logged into PenguinMod, their username used by Cloud Variables, other extensions, and the editor "username" block will be set to their PenguinMod account's username.</p>
+        <p>If a user is logged into TutelMod, their username used by Cloud Variables, other extensions, and the editor "username" block will be set to their TutelMod account's username.</p>
         <p>Built-in Scratch extensions that require Wi-Fi (such as Translate, Text to Speech, LEGO, micro:bit, etc.) may connect to the Scratch API to implement these features. <a href="https://scratch.mit.edu/privacy_policy/">Refer to the Scratch privacy policy for more information</a>. The Translate extension may instead make requests to a TurboWarp API, which may then forward your request to the Scratch API and log the message being translated and the result for caching and performance.</p>
         <p>In rare circumstances, connections that are appear to be spam may have their IP address logged for up to 24 hours. This happens very infrequently and only in cases of extreme abuse.</p>
         <p>
-            Built-in PenguinMod and Custom extensions that require Wi-Fi or use Wi-Fi to get online data (HTTP, Website Requests, Sound Systems, CloudLink, HTML iframes, Storage, etc.) may connect to any user-specified API, which will grant the owner of the website being connected to:
+            Built-in TutelMod and Custom extensions that require Wi-Fi or use Wi-Fi to get online data (HTTP, Website Requests, Sound Systems, CloudLink, HTML iframes, Storage, etc.) may connect to any user-specified API, which will grant the owner of the website being connected to:
         </p>
         <ul>
             <li>your full IP address (and possibly general location using your IP address)</li>
@@ -291,11 +291,11 @@ Language.onChange((lang) => {
                 <li>any web API</li>
             </ul>
         <p>
-            The websites specified may also display any content, however PenguinMod will attempt to automatically scan the website
+            The websites specified may also display any content, however TutelMod will attempt to automatically scan the website
             for any potential viruses or vulnerabilities. Major adult websites are also blocked, and most others are blocked aswell.
         </p>
         <p>
-            PenguinMod does not allow projects uploaded to only display content from other websites.
+            TutelMod does not allow projects uploaded to only display content from other websites.
             Uploaded projects must contain content of their own, and certain websites may cause the uploaded project to be deleted or rejected.
         </p>
         <h3>Core - Scratch Authentication (referred to as "Scratch Auth Extension" here)</h3>
@@ -308,7 +308,7 @@ Language.onChange((lang) => {
                 <li>your public <a href="https://scratch.mit.edu/">Scratch</a> Account information</li>
             </ul>
             <p>
-            The "Scratch Auth Extension" also allows your public Scratch account information to be accessible to the PenguinMod project,
+            The "Scratch Auth Extension" also allows your public Scratch account information to be accessible to the TutelMod project,
             however other tools, extensions or APIs are required to get information past your Scratch username.
         </p>
         <h3>User-submitted (G1nX) - Better Storage</h3>
@@ -340,10 +340,10 @@ Language.onChange((lang) => {
         <p>
             TurboWeather uses Browser APIs to geolocate the user.
             <br>
-            PenguinMod will ask the user to confirm this action before the extension attempts to do this.
+            TutelMod will ask the user to confirm this action before the extension attempts to do this.
             <br>
             <br>
-            PenguinMod will not ask the user to confirm this action if the project is compiled using
+            TutelMod will not ask the user to confirm this action if the project is compiled using
             <a href="{PUBLIC_STUDIO_URL}/TutelMod-Packager/">the TutelMod packager.</a>
             <br>
             In this case it is up to the user's browser to prompt the user if they would like to allow the website

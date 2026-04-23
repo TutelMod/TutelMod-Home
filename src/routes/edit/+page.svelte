@@ -474,14 +474,14 @@
 </script>
 
 <svelte:head>
-    <title>PenguinMod - Edit {projectName}</title>
-    <meta name="title"                   content="PenguinMod - Edit" />
-    <meta property="og:title"            content="PenguinMod - Edit" />
-    <meta property="twitter:title"       content="PenguinMod - Edit">
+    <title>TutelMod - Edit {projectName}</title>
+    <meta name="title"                   content="TutelMod - Edit" />
+    <meta property="og:title"            content="TutelMod - Edit" />
+    <meta property="twitter:title"       content="TutelMod - Edit">
     <meta name="description"             content="Edit your project.">
     <meta property="twitter:description" content="Edit your project.">
-    <meta property="og:url"              content="https://penguinmod.com/edit">
-    <meta property="twitter:url"         content="https://penguinmod.com/edit">
+    <meta property="og:url"              content="https://tutelmod.com/edit">
+    <meta property="twitter:url"         content="https://tutelmod.com/edit">
 </svelte:head>
 
 <NavigationBar />
@@ -595,7 +595,7 @@
                 class="emoji-picker-button"
             >
                 <img
-                    src={`https://library.penguinmod.com/files/emojis/${emojiPickerRandomEmoji}.png`}
+                    src={`https://library.tutelmod.com/files/emojis/${emojiPickerRandomEmoji}.png`}
                     alt="Emoji"
                     title="Pick an emoji"
                     loading="lazy"
@@ -651,7 +651,7 @@
                                         on:click={() => placeEmojiInTextbox(emoji)}
                                     >
                                         <img
-                                            src={`https://library.penguinmod.com/files/emojis/${emoji}.png`}
+                                            src={`https://library.tutelmod.com/files/emojis/${emoji}.png`}
                                             alt={`:${emoji}:`}
                                             title={`:${emoji}:`}
                                             loading="lazy"

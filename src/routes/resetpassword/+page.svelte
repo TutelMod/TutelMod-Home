@@ -120,7 +120,7 @@
                 alt="Profiles"
             />
         </div>
-        <h1 style="margin-block:4px">PenguinMod</h1>
+        <h1 style="margin-block:4px">TutelMod</h1>
         <p>
             <LocalizedText
                 text="Change Your Password"

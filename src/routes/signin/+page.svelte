@@ -200,20 +200,20 @@
 </script>
 
 <svelte:head>
-    <title>PenguinMod - Login</title>
-    <meta name="title" content="PenguinMod - Login" />
-    <meta property="og:title" content="PenguinMod - Login" />
-    <meta property="twitter:title" content="PenguinMod - Login" />
+    <title>TutelMod - Login</title>
+    <meta name="title" content="TutelMod - Login" />
+    <meta property="og:title" content="TutelMod - Login" />
+    <meta property="twitter:title" content="TutelMod - Login" />
     <meta
         name="description"
-        content="Login for PenguinMod to start sharing your projects!"
+        content="Login for TutelMod to start sharing your projects!"
     />
     <meta
         property="twitter:description"
-        content="Login for PenguinMod to start sharing your projects!"
+        content="Login for TutelMod to start sharing your projects!"
     />
-    <meta property="og:url" content="https://penguinmod.com/signin" />
-    <meta property="twitter:url" content="https://penguinmod.com/signin" />
+    <meta property="og:url" content="https://tutelmod.com/signin" />
+    <meta property="twitter:url" content="https://tutelmod.com/signin" />
 </svelte:head>
 
 {#if !embed}
@@ -227,7 +227,7 @@
     {#if !apiOnlineChecking && apiOnlineResponding}
         <main>
             <img src="/penguins/signin.svg" alt="Profiles" />
-            <h1 style="margin-block:4px">PenguinMod</h1>
+            <h1 style="margin-block:4px">TutelMod</h1>
             <p>
                 <LocalizedText
                     text="Login with your personal account"
@@ -245,7 +245,7 @@
                 ${TranslationHandler.textSafe(
                     "login.linkto.oldaccounts2025.line2",
                     currentLang,
-                    "Check the post [here](https://penguinmod.com/devposts/3-18-2025-shutdown-incident) for more information.",
+                    "Check the post [here](https://tutelmod.com/devposts/3-18-2025-shutdown-incident) for more information.",
                 )}`)}
             </div>
 

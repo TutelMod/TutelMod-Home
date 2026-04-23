@@ -48,8 +48,8 @@
     <meta property="twitter:title"       content="TutelMod - Support Us">
     <meta name="description"             content="Help support TutelMod and it's development!">
     <meta property="twitter:description" content="Help support TutelMod and it's development!">
-    <meta property="og:url"              content="https://penguinmod.com/support">
-    <meta property="twitter:url"         content="https://penguinmod.com/support">
+    <meta property="og:url"              content="https://tutelmod.com/support">
+    <meta property="twitter:url"         content="https://tutelmod.com/support">
 </svelte:head>
 
 <NavigationBar />
@@ -126,7 +126,7 @@
                         </p>
                         <a
                             target="_blank"
-                            href="https://www.patreon.com/cw/PenguinMod"
+                            href="https://www.patreon.com/cw/TutelMod"
                             style="text-decoration: none !important;"
                         >
                             <button
@@ -209,7 +209,7 @@
                 </p>
                 <p class="small">
                     <LocalizedText
-                        text="You can always donate to our parent projects Scratch, TurboWarp or PenguinMod as well, to help them stay online."
+                        text="You can always donate to our parent projects Scratch, TurboWarp, PenguinMod or TutelMod as well, to help them stay online."
                         key="donate.parents"
                         dolink={true}
                         lang={currentLang}

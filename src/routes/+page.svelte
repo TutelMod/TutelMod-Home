@@ -310,8 +310,8 @@
         property="twitter:description"
         content="The area where featured projects and community stuff & info is shown."
     />
-    <meta property="og:url" content="https://penguinmod.com/" />
-    <meta property="twitter:url" content="https://penguinmod.com/" />
+    <meta property="og:url" content="https://tutelmod.com/" />
+    <meta property="twitter:url" content="https://tutelmod.com/" />
     <meta
         name="google-site-verification"
         content="07oAYybKa_CH2le7AvPJkNNtwhZSq_G0V4d9P7AIZYE"
@@ -399,7 +399,7 @@
             {:else}
                 <img
                     src="/penguins/frontpage.svg"
-                    alt="PenguinMod"
+                    alt="TutelMod"
                     style="margin-right: 8rem;"
                 />
             {/if}
@@ -1181,7 +1181,7 @@
                 </a>
                 <a
                     target="_blank"
-                    href={`https://penguinmod.com/redirect?t=${encodeURIComponent(btoa(LINK.discord))}`}
+                    href={`https://tutelmod.com/redirect?t=${encodeURIComponent(btoa(LINK.discord))}`}
                     >Discord</a
                 >
             </div>

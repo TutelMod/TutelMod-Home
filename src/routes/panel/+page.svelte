@@ -1091,14 +1091,14 @@
 </script>
 
 <svelte:head>
-    <title>PenguinMod - Admin Panel</title>
+    <title>TutelMod - Admin Panel</title>
     <meta
         name="robots"
         content="noindex,nofollow,noarchive,nosnippet,noimageindex,nocache,none"
     />
-    <meta name="title" content="PenguinMod - Home" />
-    <meta property="og:title" content="PenguinMod - Home" />
-    <meta property="twitter:title" content="PenguinMod - Home" />
+    <meta name="title" content="TutelMod - Home" />
+    <meta property="og:title" content="TutelMod - Home" />
+    <meta property="twitter:title" content="TutelMod - Home" />
     <meta
         name="description"
         content="The area where featured projects and community stuff & info is shown."
@@ -1107,8 +1107,8 @@
         property="twitter:description"
         content="The area where featured projects and community stuff & info is shown."
     />
-    <meta property="og:url" content="https://penguinmod.com/" />
-    <meta property="twitter:url" content="https://penguinmod.com/" />
+    <meta property="og:url" content="https://tutelmod.com/" />
+    <meta property="twitter:url" content="https://tutelmod.com/" />
 </svelte:head>
 
 <NavigationBar />
@@ -1480,7 +1480,7 @@
                     target="_blank"
                     href={"/guidelines/moderation"}
                 >
-                    PenguinMod Moderation Expectations
+                    TutelMod Moderation Expectations
                 </a>
             </p>
 
@@ -1621,7 +1621,7 @@
                         target="_blank"
                         href={"/guidelines/moderation"}
                     >
-                        PenguinMod Moderation Expectations
+                        TutelMod Moderation Expectations
                     </a>
                 </p>
                 <button
@@ -1643,7 +1643,7 @@
                             <br />
                             View the
                             <a target="_blank" href={"/guidelines/moderation"}>
-                                PenguinMod Moderation Expectations
+                                TutelMod Moderation Expectations
                             </a> for more info.
                         </i>
                     </p>
@@ -1677,7 +1677,7 @@
                             <br />
                             View the
                             <a target="_blank" href={"/guidelines/moderation"}>
-                                PenguinMod Moderation Expectations
+                                TutelMod Moderation Expectations
                             </a> for more info.
                         </i>
                     </p>
@@ -1685,7 +1685,7 @@
                     <input
                         type="text"
                         size="50"
-                        placeholder="PenguinMod Username..."
+                        placeholder="TutelMod Username..."
                         bind:value={messageReplyInfo.target}
                     />
                     <p>Type message:</p>
@@ -1779,7 +1779,7 @@
                 <input
                     type="text"
                     size="50"
-                    placeholder="PenguinMod username..."
+                    placeholder="TutelMod username..."
                     bind:value={userSelectionData.username}
                 />
                 <br />
@@ -1943,7 +1943,7 @@
                     <input
                         type="text"
                         size="50"
-                        placeholder="PenguinMod username..."
+                        placeholder="TutelMod username..."
                         on:change={() => {
                             userBadgeInfo.areBadgesLoaded = false;
                         }}
@@ -1991,7 +1991,7 @@
                     <p>Type usernames:</p>
                     <textarea
                         style="width: 80%;height:120px"
-                        placeholder="Paste PenguinMod usernames, seperated by new lines. Excess spaces will be trimmed."
+                        placeholder="Paste TutelMod usernames, seperated by new lines. Excess spaces will be trimmed."
                         bind:value={userBadgeInfo.targetUsernamesBox}
                     />
 
@@ -2187,7 +2187,7 @@
                                     {:else}
                                         <h5>
                                             By: <a
-                                                href={`https://penguinmod.com/profile?user=${content.reporter}`}
+                                                href={`https://tutelmod.com/profile?user=${content.reporter}`}
                                                 >{content.reporter}</a
                                             >
                                         </h5>
@@ -2202,7 +2202,7 @@
                                             Close Report
                                         </Button>
                                         <a
-                                            href={`https://penguinmod.com/profile?user=${content.target}`}
+                                            href={`https://tutelmod.com/profile?user=${content.target}`}
                                             target="”_blank”">go to profile</a
                                         >
                                         <h3>View reports by</h3>
@@ -2259,7 +2259,7 @@
                                 <div class="reports-generic-details">
                                     <h5>
                                         By: <a
-                                            href={`https://penguinmod.com/profile?user=${content.reporter}`}
+                                            href={`https://tutelmod.com/profile?user=${content.reporter}`}
                                             >{content.reporter}</a
                                         >
                                     </h5>

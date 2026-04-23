@@ -497,20 +497,20 @@
 </script>
 
 <svelte:head>
-    <title>PenguinMod - Sign Up</title>
-    <meta name="title" content="PenguinMod - Sign Up" />
-    <meta property="og:title" content="PenguinMod - Sign Up" />
-    <meta property="twitter:title" content="PenguinMod - Sign Up" />
+    <title>TutelMod - Sign Up</title>
+    <meta name="title" content="TutelMod - Sign Up" />
+    <meta property="og:title" content="TutelMod - Sign Up" />
+    <meta property="twitter:title" content="TutelMod - Sign Up" />
     <meta
         name="description"
-        content="Sign up for PenguinMod to start sharing your projects!"
+        content="Sign up for TutelMod to start sharing your projects!"
     />
     <meta
         property="twitter:description"
-        content="Sign up for PenguinMod to start sharing your projects!"
+        content="Sign up for TutelMod to start sharing your projects!"
     />
-    <meta property="og:url" content="https://penguinmod.com/signup" />
-    <meta property="twitter:url" content="https://penguinmod.com/signup" />
+    <meta property="og:url" content="https://tutelmod.com/signup" />
+    <meta property="twitter:url" content="https://tutelmod.com/signup" />
 </svelte:head>
 
 {#if !embed}
@@ -535,7 +535,7 @@
                     )}
                 />
             </div>
-            <h1 style="margin-block:4px">PenguinMod</h1>
+            <h1 style="margin-block:4px">TutelMod</h1>
             <p>
                 <LocalizedText
                     text="Create your personal account"
@@ -791,7 +791,7 @@
             {#if birthdayFaked}
                 <p class="birthday-warning">
                     <LocalizedText
-                        text="Did your parent/guardian give you permission to use PenguinMod?"
+                        text="Did your parent/guardian give you permission to use TutelMod?"
                         key="birthday.requirement.faked.line1"
                         lang={currentLang}
                     />
@@ -815,7 +815,7 @@
                         `${TranslationHandler.textSafe(
                             "account.fields.agreements.personalinfo",
                             currentLang,
-                            "I agree to allow PenguinMod to collect and use my country and date of birth (or my child's if I am registering on their behalf) in accordance with the [Privacy Policy](/privacy).",
+                            "I agree to allow TutelMod to collect and use my country and date of birth (or my child's if I am registering on their behalf) in accordance with the [Privacy Policy](/privacy).",
                         )}`,
                     )}
                 </span>
@@ -842,7 +842,7 @@
                     `${TranslationHandler.textSafe(
                         "signup.confirm.legal.alt",
                         currentLang,
-                        "By creating a PenguinMod account through any means provided on this page, you agree to abide by the [Terms of Service](/terms) and [Uploading Guidelines](/guidelines/uploading) and confirm that you have read the [Privacy Policy](/privacy) in its entirety. If you are a parent or guardian creating an account for a child, you agree to these terms on their behalf. If you are legally an adult, you confirm that you are creating this account for yourself.",
+                        "By creating a TutelMod account through any means provided on this page, you agree to abide by the [Terms of Service](/terms) and [Uploading Guidelines](/guidelines/uploading) and confirm that you have read the [Privacy Policy](/privacy) in its entirety. If you are a parent or guardian creating an account for a child, you agree to these terms on their behalf. If you are legally an adult, you confirm that you are creating this account for yourself.",
                     )}`,
                 )}
             </p>

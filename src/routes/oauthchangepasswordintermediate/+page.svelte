@@ -122,31 +122,31 @@
 </script>
 
 <svelte:head>
-    <title>PenguinMod - Change Password With OAuth</title>
-    <meta name="title" content="PenguinMod - Change Password With OAuth" />
+    <title>TutelMod - Change Password With OAuth</title>
+    <meta name="title" content="TutelMod - Change Password With OAuth" />
     <meta
         property="og:title"
-        content="PenguinMod - Change Password With OAuth"
+        content="TutelMod - Change Password With OAuth"
     />
     <meta
         property="twitter:title"
-        content="PenguinMod - Change Password With OAuth"
+        content="TutelMod - Change Password With OAuth"
     />
     <meta
         name="description"
-        content="Change your password with OAuth for PenguinMod to access your account with a password or to just change it"
+        content="Change your password with OAuth for TutelMod to access your account with a password or to just change it"
     />
     <meta
         property="twitter:description"
-        content="Change your password with OAuth for PenguinMod to access your account with a password or to just change it"
+        content="Change your password with OAuth for TutelMod to access your account with a password or to just change it"
     />
     <meta
         property="og:url"
-        content="https://penguinmod.com/oauthchangepassword"
+        content="https://tutelmod.com/oauthchangepassword"
     />
     <meta
         property="twitter:url"
-        content="https://penguinmod.com/oauthchangepassword"
+        content="https://tutelmod.com/oauthchangepassword"
     />
 </svelte:head>
 
@@ -159,7 +159,7 @@
         <div class="profile-section">
             <img src="/account/profile_sheet.png" alt="Profiles" />
         </div>
-        <h1 style="margin-block:4px">PenguinMod</h1>
+        <h1 style="margin-block:4px">TutelMod</h1>
         <p>
             <LocalizedText
                 text="Change/Set Your Password Using OAuth"
