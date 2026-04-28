@@ -2,8 +2,7 @@
     import { onMount } from "svelte";
     import { PUBLIC_STUDIO_URL } from "$env/static/public";
     onMount(() => {
-        window.location.href =
-            `${PUBLIC_STUDIO_URL}/TutelMod-Packager`;
+        window.location.href = "https://packager.tutelmod.com"  ;
     });
 </script>
 
@@ -19,7 +18,7 @@
 </svelte:head>
 <div>
     If you are not redirected automatically,
-    <a href="{PUBLIC_STUDIO_URL}/TutelMod-Packager">click here</a>
+    <a href="https://packager.tutelmod.com">click here</a>
 </div>
 
 <style>
