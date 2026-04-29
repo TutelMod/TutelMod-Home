@@ -64,7 +64,7 @@
         outline-style: solid;
         outline-color: rgba(0, 195, 255, 0.35);
         color: white;
-        background-color: #00c3ff;
+        background-color: rgb(30, 255, 79);
         cursor: pointer;
         display: flex;
         flex-direction: row;

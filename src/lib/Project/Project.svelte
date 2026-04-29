@@ -44,7 +44,7 @@
         return title.replace(emojiRegex, (match) => {
             const emojiName = match.replace(/\:/gim, "");
             return `<img
-                src="https://library.penguinmod.com/files/emojis/${emojiName}.png"
+                src="https://library.tutelmod.com/files/emojis/${emojiName}.png"
                 alt=":${emojiName}:"
                 title=":${emojiName}:"
                 style="width:1.2rem;vertical-align: middle;"

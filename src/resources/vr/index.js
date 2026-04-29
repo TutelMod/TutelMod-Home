@@ -56,12 +56,12 @@ class VRHandler {
         this.tempMatrix = new Three.Matrix4();
 
         this.audioElements = {
-            background: new Audio("https://penguinmod.com/vr/wind.mp3"),
+            background: new Audio("https://tutelmod.com/vr/wind.mp3"),
 
-            type: new Audio("https://penguinmod.com/vr/type.mp3"),
-            hover: new Audio("https://penguinmod.com/vr/hover.mp3"),
-            enter: new Audio("https://penguinmod.com/vr/enter.mp3"),
-            deselect: new Audio("https://penguinmod.com/vr/deselect.mp3"),
+            type: new Audio("https://tutelmod.com/vr/type.mp3"),
+            hover: new Audio("https://tutelmod.com/vr/hover.mp3"),
+            enter: new Audio("https://tutelmod.com/vr/enter.mp3"),
+            deselect: new Audio("https://tutelmod.com/vr/deselect.mp3"),
         };
     }
 
@@ -187,12 +187,12 @@ class VRHandler {
         // skybox
         const cubeTexLoader = new Three.CubeTextureLoader();
         const skyboxTexture = cubeTexLoader.load([
-            "https://penguinmod.com/vr/skybox_right.png",
-            "https://penguinmod.com/vr/skybox_left.png",
-            "https://penguinmod.com/vr/skybox_top.png",
-            "https://penguinmod.com/vr/skybox_bottom.png",
-            "https://penguinmod.com/vr/skybox_front.png",
-            "https://penguinmod.com/vr/skybox_back.png",
+            "https://tutelmod.com/vr/skybox_right.png",
+            "https://tutelmod.com/vr/skybox_left.png",
+            "https://tutelmod.com/vr/skybox_top.png",
+            "https://tutelmod.com/vr/skybox_bottom.png",
+            "https://tutelmod.com/vr/skybox_front.png",
+            "https://tutelmod.com/vr/skybox_back.png",
         ]);
         this.scene.background = skyboxTexture;
 
@@ -206,7 +206,7 @@ class VRHandler {
         // platform
         const texLoader = new Three.TextureLoader();
         const platformTexture = texLoader.load(
-            "https://penguinmod.com/vr/platform.png"
+            "https://tutelmod.com/vr/platform.png"
         );
         const platformGeometry = new Three.PlaneGeometry(1, 1);
         const platformMaterial = new Three.MeshBasicMaterial({
@@ -264,8 +264,8 @@ class VRHandler {
         this.raycaster = new Three.Raycaster();
         
         // exit button
-        const exitTexture = texLoader.load("https://penguinmod.com/vr/exit.png");
-        const exitProgressTexture = texLoader.load("https://penguinmod.com/vr/white.png");
+        const exitTexture = texLoader.load("https://tutelmod.com/vr/exit.png");
+        const exitProgressTexture = texLoader.load("https://tutelmod.com/vr/white.png");
         const exitMaterial = new Three.MeshBasicMaterial({
             map: exitTexture,
             transparent: true,

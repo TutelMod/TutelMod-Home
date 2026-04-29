@@ -79,7 +79,7 @@ class VHTMLRenderer {
         this.texCreator.createText(error, true, textSize.width / 2, 0);
 
         const textTextureURL = this.texCreator.export();
-        const planeTexture = this.texLoader.load("https://penguinmod.com/vr/warning.png");
+        const planeTexture = this.texLoader.load("https://tutelmod.com/vr/warning.png");
         const errorMsgTexture = this.texLoader.load(textTextureURL);
 
         const planeGeometry = new Three.PlaneGeometry(1.5, 1.5);

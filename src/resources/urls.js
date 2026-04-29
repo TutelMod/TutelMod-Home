@@ -40,7 +40,7 @@ export default {
         /**
          * PenguinMod's project uploading guidelines
          */
-        projects: `${PUBLIC_STUDIO_URL}/PenguinMod-Guidelines/PROJECTS`
+        projects: `${PUBLIC_STUDIO_URL}/TutelMod-Guidelines/PROJECTS`
     },
 
     /**
@@ -64,7 +64,7 @@ export default {
     /**
      * PenguinMod's home page
      */
-    home: "https://penguinmod.com/",
+    home: "https://tutelmod.com/",
 
     /**
      * TutelMod's packager page
@@ -104,5 +104,5 @@ export default {
     /**
      * The admin panel for pm projects api
      */
-    adminPanel: "https://penguinmod.com/panel"
+    adminPanel: "https://tutelmod.com/panel"
 }

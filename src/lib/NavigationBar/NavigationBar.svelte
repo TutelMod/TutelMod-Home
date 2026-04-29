@@ -353,7 +353,7 @@
     style={isAprilFirst ? `background-color: ${randomColor} !important` : ""}
 >
     <a class="logo" href="/">
-        <img class="logo-image" src="/navicon.png" alt="PenguinMod" />
+        <img class="logo-image" src="/navicon.png" alt="TutelMod" />
     </a>
     <div style="margin-right: 12px;" />
     <div class="logo-launcher-margin" />
@@ -488,10 +488,10 @@
 
 <style>
     :root {
-        --penguinmod-color: #00c3ff;
+        --penguinmod-color: #1fad4e;
     }
     :global(body.dark-mode) {
-        --penguinmod-color: #009ccc;
+        --penguinmod-color: #1f7a4d;
     }
 
     .bar {

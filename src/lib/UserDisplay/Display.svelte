@@ -45,7 +45,7 @@
         text-overflow: ellipsis;
         text-decoration: none;
         width: 100%;
-        color: #4d97ff;
+        color: rgb(31, 235, 75);
         display: block;
         white-space: nowrap;
         overflow: hidden;

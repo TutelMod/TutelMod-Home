@@ -239,6 +239,6 @@
     }
     
     :global(body.dark-mode) a {
-        color: dodgerblue;
+        color: rgb(30, 122, 77);
     }
 </style>

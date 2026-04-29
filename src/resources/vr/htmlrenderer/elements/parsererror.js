@@ -8,7 +8,7 @@ class VHTMLParserErrorElement extends VHTMLElement {
     }
 
     render() {
-        const imageTexture = this.renderer.texLoader.load("https://penguinmod.com/vr/warning.png");
+        const imageTexture = this.renderer.texLoader.load("https://tutelmod.com/vr/warning.png");
         const imgGeometry = new Three.PlaneGeometry(1.5, 1.5);
         const imgMaterial = new Three.MeshBasicMaterial({
             map: imageTexture,

@@ -41,7 +41,7 @@
 
 <style>
     a {
-        color: dodgerblue;
+        color: rgb(30, 255, 79);
     }
 
     .section {
