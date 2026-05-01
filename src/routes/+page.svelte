@@ -448,7 +448,7 @@
             <Button label="GitHub" link={LINK.github} />
             <Button link={LINK.wiki}>
                 <LocalizedText
-                    text="Community Wiki"
+                    text="TutelMod Wiki"
                     key="home.footer.sections.community.wiki"
                     lang={currentLang}
                 />
