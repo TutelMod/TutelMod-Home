@@ -261,8 +261,8 @@
         property="twitter:description"
         content="Report a specific project or user on TutelMod."
     />
-    <meta property="og:url" content="https://tutelmod.github.io/report" />
-    <meta property="twitter:url" content="https://tutelmod.github.io/report" />
+    <meta property="og:url" content="https://tutelmod.com/report" />
+    <meta property="twitter:url" content="https://tutelmod.com/report" />
 </svelte:head>
 
 <NavigationBar />

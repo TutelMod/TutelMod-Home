@@ -149,7 +149,7 @@
         text-overflow: ellipsis;
         text-decoration: none;
         width: 100%;
-        color: rgb(30, 255, 79);
+        color: rgb(31, 235, 75);
         display: block;
         white-space: nowrap;
         overflow: hidden;
