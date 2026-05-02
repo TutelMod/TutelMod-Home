@@ -25,16 +25,16 @@
 		<link href="./_app/immutable/assets/20.d9fb1f09.css" rel="stylesheet">
 		<link href="./_app/immutable/assets/Button.fc49992b.css" rel="stylesheet">
 		<link href="./_app/immutable/assets/NavMargin.2402904d.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start.78d4aeae.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.459e8ae7.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/index.b6f4cff3.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.c8859f75.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.3a5570af.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.09414509.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.a0e3d031.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/preload-helper.a4192956.js">
 		<link rel="modulepreload" href="./_app/immutable/nodes/0.07e58e5b.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/20.ff14c150.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/NavMargin.bfba39e7.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/stores.b93d6e55.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/authentication.82ea5f15.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/20.8a4a262c.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/NavMargin.c5223dfe.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/stores.b1d76e70.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/authentication.865d4845.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/_commonjsHelpers.de833af9.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/language.41c426a2.js"><title>TutelMod - Log Viewer</title><!-- HEAD_svelte-1cfcuj5_START --><meta name="title" content="TutelMod - Log Viewer" class="svelte-d4wm4q"><meta property="og:title" content="TutelMod - Log Viewer" class="svelte-d4wm4q"><meta property="twitter:title" content="TutelMod - Log Viewer" class="svelte-d4wm4q"><meta name="description" content="A utility for viewing the contents of a TutelMod log file, and browsing the code that made those logs." class="svelte-d4wm4q"><meta property="twitter:description" content="A utility for viewing the contents of a TutelMod log file, and browsing the code that made those logs." class="svelte-d4wm4q"><meta property="og:url" content="https://tutelmod.com/log-viewer" class="svelte-d4wm4q"><meta property="twitter:url" content="https://tutelmod.com/log-viewer" class="svelte-d4wm4q"><!-- HEAD_svelte-1cfcuj5_END -->
 		
@@ -557,9 +557,9 @@
 			
 			<script>
 				{
-					__sveltekit_1sy6g7o = {
+					__sveltekit_hn6mb4 = {
 						base: new URL(".", location).pathname.slice(0, -1),
-						env: {"PUBLIC_API_URL":"https://projects.tutelmod.com","PUBLIC_STUDIO_URL":"https://studio.tutelmod.com","PUBLIC_MAX_UPLOAD_SIZE":"32","PUBLIC_CAPTCHA_ENABLED":"true"}
+						env: {"PUBLIC_API_URL":"http://localhost:8080","PUBLIC_STUDIO_URL":"https://studio.tutelmod.com","PUBLIC_MAX_UPLOAD_SIZE":"32","PUBLIC_CAPTCHA_ENABLED":"true"}
 					};
 
 					const element = document.currentScript.parentElement;
@@ -567,8 +567,8 @@
 					const data = [null,null];
 
 					Promise.all([
-						import("./_app/immutable/entry/start.78d4aeae.js"),
-						import("./_app/immutable/entry/app.3a5570af.js")
+						import("./_app/immutable/entry/start.459e8ae7.js"),
+						import("./_app/immutable/entry/app.a0e3d031.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 20],

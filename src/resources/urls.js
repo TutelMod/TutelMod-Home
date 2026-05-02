@@ -4,41 +4,41 @@ import { PUBLIC_STUDIO_URL } from "$env/static/public";
 
 export default {
     /**
-     * PenguinMod's normal page
+     * TutelMod's normal page
      */
     base: `${PUBLIC_STUDIO_URL}/`,
 
     /**
-     * PenguinMod's editor page
+     * TutelMod's editor page
      */
     editor: `${PUBLIC_STUDIO_URL}/editor.html`,
 
     /**
-     * PenguinMod's credits page
+     * TutelMod's credits page
      */
     credits: `${PUBLIC_STUDIO_URL}/credits.html`,
     
     /**
-     * PenguinMod's contact page
+     * TutelMod's contact page
      */
     contact: `${PUBLIC_STUDIO_URL}/contact.html`,
 
     /**
-     * PenguinMod's terms of service page
+     * TutelMod's terms of service page
      */
     terms: "/terms",
 
     /**
-     * PenguinMod's privacy policy page
+     * TutelMod's privacy policy page
      */
     privacy: "/privacy",
 
     /**
-     * PenguinMod's guideline pages for services
+     * TutelMod's guideline pages for services
      */
     guidelines: {
         /**
-         * PenguinMod's project uploading guidelines
+         * TutelMod's project uploading guidelines
          */
         projects: `${PUBLIC_STUDIO_URL}/TutelMod-Guidelines/PROJECTS`
     },
@@ -48,21 +48,22 @@ export default {
      */
     donate: {
         scratch: "https://www.scratchfoundation.org/donate",
-        turbowarp: "https://github.com/sponsors/GarboMuffin"
+        turbowarp: "https://github.com/sponsors/GarboMuffin",
+        penguinmod: "https://penguinmod.com/support"
     },
 
     /**
-     * PenguinMod's project page
+     * TutelMod's project page
      */
     projects: `${ProjectApi.OriginApiUrl}/`,
 
     /**
-     * PenguinMod's my stuff page
+     * TutelMod's my stuff page
      */
     mystuff: `${ProjectApi.OriginApiUrl}/mystuff`,
 
     /**
-     * PenguinMod's home page
+     * TutelMod's home page
      */
     home: "https://tutelmod.com/",
 
@@ -72,7 +73,7 @@ export default {
     packager: `${PUBLIC_STUDIO_URL}/TutelMod-Packager/`,
 
     /**
-     * TutelMod's unofficial wiki
+     * TutelMod's official wiki
      */
     wiki: "https://wiki.tutelmod.com/wiki/Main_Page",
 
@@ -90,6 +91,11 @@ export default {
      * TurboWarp's website
      */
     turbowarp: "https://turbowarp.org",
+
+    /**
+     * PenguinMod's website
+     */
+    penguinmod: "https://penguinmod.com",
 
     /**
      * TutelMod's github page
