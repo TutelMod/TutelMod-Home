@@ -110,15 +110,13 @@
     };
 
     let projects = {
-        today: results.latest,
-        featured: results.featured,
-        voted: results.voted,
-        viewed: results.viewed || [],
-        tagged: results.tagged,
-        suggested: results.suggested || null,
+        today: [],
+        featured: [],
+        voted: [],
+        viewed: [],
+        tagged: [],
+        suggested: null,
     };
-tagForProjects = results.selectedTag;
-projectsLoaded = true;
     function formatNumber(num) {
         return Math.abs(num) >= 0.01 && num % 1 !== 0 ? num.toFixed(2) : num;
     }
@@ -258,15 +256,17 @@ projectsLoaded = true;
 
         ProjectClient.getFrontPage()
             .then((results) => {
-                projects.today = results.latest;
-                projects.featured = results.featured;
-                projects.voted = results.voted;
-                projects.viewed = results.viewed;
-                projects.tagged = results.tagged;
-                if (results.suggested) projects.suggested = results.suggested;
-                tagForProjects = results.selectedTag;
-                projectsLoaded = true;
-            })
+                projects = {
+                today: results.latest,
+                featured: results.featured,
+                voted: results.voted,
+                viewed: results.viewed || [],
+                tagged: results.tagged,
+                suggested: results.suggested || null,
+            };
+            tagForProjects = results.selectedTag;
+            projectsLoaded = true;
+        })
             
             .catch((err) => {
                 projectsFailed = true;
