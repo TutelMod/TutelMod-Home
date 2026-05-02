@@ -47,7 +47,7 @@
         embed = $page.url.searchParams.get("embed") === "true";
     }
 
-    let apiOnlineChecking = true;
+    let apiOnlineChecking = false;
     let apiOnlineResponding = false;
     if (browser) {
         onMount(() => {
