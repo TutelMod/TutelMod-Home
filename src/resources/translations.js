@@ -12,7 +12,7 @@ const jokeLanguages = Locales.jokeLanguages;
 class TranslationHandler {
     static text(key, lang) {
         // return key;
-        if (!languages[lang]) lang = 'en';
+        if (!lang || !languages[lang]) lang = 'en';
         const language = languages[lang];
         if (language[key]) return language[key];
         return null;
