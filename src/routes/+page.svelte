@@ -201,6 +201,7 @@
     let tagForProjects = "";
     let loggedInAdminOrMod = false;
     onMount(async () => {
+        console.log('onMount started');
         Language.forceUpdate();
         let username = localStorage.getItem("username");
         const token = localStorage.getItem("token");
