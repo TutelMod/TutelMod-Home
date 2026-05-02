@@ -29,23 +29,23 @@
 		<link href="./_app/immutable/assets/Button.fc49992b.css" rel="stylesheet">
 		<link href="./_app/immutable/assets/StatusAlert.36e465ab.css" rel="stylesheet">
 		<link href="./_app/immutable/assets/stats.4b9853b3.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start.459e8ae7.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.d6bf1eb0.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/index.b6f4cff3.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.09414509.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.a0e3d031.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.6e6a3429.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.1351a2a4.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/preload-helper.a4192956.js">
 		<link rel="modulepreload" href="./_app/immutable/nodes/0.07e58e5b.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/42.1a2661e3.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/authentication.865d4845.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/42.ac24c4aa.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/authentication.82ea5f15.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/_commonjsHelpers.de833af9.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/emojis.4dcf6a3e.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/NavMargin.c5223dfe.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/stores.b1d76e70.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/NavMargin.4f6ca698.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/stores.d3d0eb3b.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/language.41c426a2.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/Spinner.cf3400f3.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/Project.7c9b62f0.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/Project.3fa36c9c.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/Button.b2096eed.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/StatusAlert.f94a20eb.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/StatusAlert.b97392f9.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/stats.de97ca11.js"><title>TutelMod - Upload</title><!-- HEAD_svelte-i0942s_START --><meta name="title" content="TutelMod - Upload" class="svelte-196aupt"><meta property="og:title" content="TutelMod - Upload" class="svelte-196aupt"><meta property="twitter:title" content="TutelMod - Upload" class="svelte-196aupt"><meta name="description" content="Upload your project to TutelMod, for the whole world to see." class="svelte-196aupt"><meta property="twitter:description" content="Upload your project to TutelMod, for the whole world to see." class="svelte-196aupt"><meta property="og:url" content="https://tutelmod.com/upload" class="svelte-196aupt"><meta property="twitter:url" content="https://tutelmod.com/upload" class="svelte-196aupt"><!-- HEAD_svelte-i0942s_END -->
 		
 		<style>
@@ -573,7 +573,7 @@
 
     <div class="section-info svelte-196aupt"><h1 class="svelte-196aupt">Upload</h1></div>
 
-    <div class="full svelte-196aupt"><div class="card svelte-196aupt"><button title="Pick an emoji" class="emoji-picker-button svelte-196aupt"><img src="https://library.tutelmod.com/files/emojis/bigsad.png" alt="Emoji" title="Pick an emoji" loading="lazy" class="svelte-196aupt"></button>
+    <div class="full svelte-196aupt"><div class="card svelte-196aupt"><button title="Pick an emoji" class="emoji-picker-button svelte-196aupt"><img src="https://library.tutelmod.com/files/emojis/sobbing.png" alt="Emoji" title="Pick an emoji" loading="lazy" class="svelte-196aupt"></button>
             <div class="emoji-picker-list svelte-196aupt" data-opened="false"><div class="emoji-picker-search-container svelte-196aupt"><div class="emoji-picker-search-icon svelte-196aupt"><svg xmlns="http://www.w3.org/2000/svg" style="width: 30px;height: 20px;margin-bottom:5px; margin-top: 5px;" viewBox="0 0 19.9 19.7"><g class="search-path" fill="none" stroke="#000000" stroke-width="2px"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></div>
                     <input type="text" placeholder="..." class="svelte-196aupt" value=""></div>
                 <div class="emoji-picker-emoji-container svelte-196aupt"></div></div>
@@ -615,9 +615,9 @@
 			
 			<script>
 				{
-					__sveltekit_hn6mb4 = {
+					__sveltekit_1mq1o0k = {
 						base: new URL(".", location).pathname.slice(0, -1),
-						env: {"PUBLIC_API_URL":"http://localhost:8080","PUBLIC_STUDIO_URL":"https://studio.tutelmod.com","PUBLIC_MAX_UPLOAD_SIZE":"32","PUBLIC_CAPTCHA_ENABLED":"true"}
+						env: {"PUBLIC_API_URL":"https://projects.tutelmod.com","PUBLIC_STUDIO_URL":"https://studio.tutelmod.com","PUBLIC_MAX_UPLOAD_SIZE":"32","PUBLIC_CAPTCHA_ENABLED":"true"}
 					};
 
 					const element = document.currentScript.parentElement;
@@ -625,8 +625,8 @@
 					const data = [null,null];
 
 					Promise.all([
-						import("./_app/immutable/entry/start.459e8ae7.js"),
-						import("./_app/immutable/entry/app.a0e3d031.js")
+						import("./_app/immutable/entry/start.d6bf1eb0.js"),
+						import("./_app/immutable/entry/app.1351a2a4.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 42],
