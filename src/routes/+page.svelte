@@ -256,17 +256,23 @@
 
         ProjectClient.getFrontPage()
             .then((results) => {
+            console.log('getFrontPage results:', results);
                 projects = {
-                today: results.latest,
-                featured: results.featured,
-                voted: results.voted,
-                viewed: results.viewed || [],
-                tagged: results.tagged,
-                suggested: results.suggested || null,
-            };
-            tagForProjects = results.selectedTag;
-            projectsLoaded = true;
-        })
+                    today: results.latest,
+                    featured: results.featured,
+                    voted: results.voted,
+                    viewed: results.viewed || [],
+                    tagged: results.tagged,
+                    suggested: results.suggested || null,
+                };
+                tagForProjects = results.selectedTag;
+                projectsLoaded = true;
+                console.log('projectsLoaded:', projectsLoaded, 'projects:', projects);
+            })
+            .catch((err) => {
+                console.log('getFrontPage error:', err);
+                projectsFailed = true;
+            })
             
             .catch((err) => {
                 projectsFailed = true;
