@@ -110,13 +110,15 @@
     };
 
     let projects = {
-        today: [],
-        featured: [],
-        voted: [],
-        viewed: [],
-        tagged: [],
-        suggested: null,
+        today: results.latest,
+        featured: results.featured,
+        voted: results.voted,
+        viewed: results.viewed || [],
+        tagged: results.tagged,
+        suggested: results.suggested || null,
     };
+tagForProjects = results.selectedTag;
+projectsLoaded = true;
     function formatNumber(num) {
         return Math.abs(num) >= 0.01 && num % 1 !== 0 ? num.toFixed(2) : num;
     }
@@ -265,6 +267,7 @@
                 tagForProjects = results.selectedTag;
                 projectsLoaded = true;
             })
+            
             .catch((err) => {
                 projectsFailed = true;
                 if (err === 429) {
