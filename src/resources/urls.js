@@ -103,12 +103,12 @@ export default {
     github: "https://github.com/TutelMod/",
 
     /**
-     * PenguinMod's basic API
+     * TutelMod's basic API
      */
-    basicApi: "https://penguinmod-basic-api.derpygamer2142.com/",
+    basicApi: "https://projects.tutelmod.com/", // this is TEMPORARY. we will change this to the ACTUAL basic api once we get it setup n ready n stuff.
 
     /**
-     * The admin panel for pm projects api
+     * The admin panel for tutelmod projects api
      */
     adminPanel: "https://tutelmod.com/panel"
 }
