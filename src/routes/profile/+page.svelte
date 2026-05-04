@@ -46,6 +46,7 @@
     };
     let badges = [];
     let isDonator = false;
+    let isOwner = false;
     let isFollowingUser = false;
     let followOnLoad = false;
     let wasNotFound = false;
@@ -178,6 +179,7 @@
                 fullProfile = proffile;
                 badges = fullProfile.badges;
                 isDonator = fullProfile.donator;
+                isOwner = badges.includes("owner");
                 followerCount = fullProfile.followers;
 
                 isProfilePrivate = fullProfile.privateProfile;
@@ -980,7 +982,9 @@
                             <div class="subuser-section">
                                 <div class="user-username">
                                     <img
-                                        style="border-color:{isDonator
+                                        style="border-color:{isOwner
+                                            ? '#00a86b'
+                                            : isDonator
                                             ? '#a237db'
                                             : '#efefef'}"
                                         src={`${PUBLIC_API_URL}/api/v1/users/getpfp?username=${user}`}
@@ -988,7 +992,12 @@
                                         class="profile-picture"
                                     />
                                     <div class="user-after-image">
-                                        {#if isDonator}
+                                        {#if isOwner}
+                                            <h1 class="owner-color">
+                                                {fullProfile.real_username ||
+                                                    user}
+                                            </h1>
+                                        {:else if isDonator}
                                             <h1 class="donator-color">
                                                 {fullProfile.real_username ||
                                                     user}
@@ -2063,6 +2072,13 @@
     :global(html[dir="rtl"]) .profile-picture {
         margin-right: initial;
         margin-left: 8px;
+    }
+
+    .owner-color {
+        color: #00a86b;
+    }
+    :global(body.dark-mode) .owner-color {
+        color: #00ff7f;
     }
 
     .donator-color {
