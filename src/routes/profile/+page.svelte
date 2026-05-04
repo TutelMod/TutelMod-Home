@@ -47,6 +47,9 @@
     let badges = [];
     let isDonator = false;
     let isOwner = false;
+    let isAdmin = false;
+    let isDeveloper = false;
+    let isVerifiedOfficial = false;
     let isFollowingUser = false;
     let followOnLoad = false;
     let wasNotFound = false;
@@ -180,6 +183,9 @@
                 badges = fullProfile.badges;
                 isDonator = fullProfile.donator;
                 isOwner = badges.includes("owner");
+                isAdmin = badges.includes("admin");
+                isDeveloper = badges.includes("dev");
+                isVerifiedOfficial = badges.includes("verifiedofficial");
                 followerCount = fullProfile.followers;
 
                 isProfilePrivate = fullProfile.privateProfile;
@@ -984,6 +990,12 @@
                                     <img
                                         style="border-color:{isOwner
                                             ? '#00a86b'
+                                            : isVerifiedOfficial
+                                            ? '#006400'
+                                            : isAdmin
+                                            ? '#ffd700'
+                                            : isDeveloper
+                                            ? '#1e90ff'
                                             : isDonator
                                             ? '#a237db'
                                             : '#efefef'}"
@@ -994,6 +1006,21 @@
                                     <div class="user-after-image">
                                         {#if isOwner}
                                             <h1 class="owner-color">
+                                                {fullProfile.real_username ||
+                                                    user}
+                                            </h1>
+                                        {:else if isVerifiedOfficial}
+                                            <h1 class="verified-official-color">
+                                                {fullProfile.real_username ||
+                                                    user}
+                                            </h1>
+                                        {:else if isAdmin}
+                                            <h1 class="admin-color">
+                                                {fullProfile.real_username ||
+                                                    user}
+                                            </h1>
+                                        {:else if isDeveloper}
+                                            <h1 class="developer-color">
                                                 {fullProfile.real_username ||
                                                     user}
                                             </h1>
@@ -2079,6 +2106,27 @@
     }
     :global(body.dark-mode) .owner-color {
         color: #00ff7f;
+    }
+
+    .verified-official-color {
+        color: #006400;
+    }
+    :global(body.dark-mode) .verified-official-color {
+        color: #32cd32;
+    }
+
+    .admin-color {
+        color: #ffd700;
+    }
+    :global(body.dark-mode) .admin-color {
+        color: #ffff00;
+    }
+
+    .developer-color {
+        color: #1e90ff;
+    }
+    :global(body.dark-mode) .developer-color {
+        color: #00bfff;
     }
 
     .donator-color {
