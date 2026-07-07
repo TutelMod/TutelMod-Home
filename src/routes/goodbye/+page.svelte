@@ -86,9 +86,5 @@
             margin-block: 0;
             margin-left: 32px;
         }
-    
-        :global(body.dark-mode) a {
-            color: dodgerblue;
-        }
     </style>
     
