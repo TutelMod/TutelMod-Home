@@ -29,8 +29,8 @@
         <meta property="twitter:title" content="TutelMod - The End.">
         <meta name="description" content="The end of TutelMod.">
         <meta property="twitter:description" content="The end of TutelMod.">
-        <meta property="og:url" content="https://tutelmod.com/terms">
-        <meta property="twitter:url" content="https://tutelmod.com/terms">
+        <meta property="og:url" content="https://tutelmod.com/goodbye">
+        <meta property="twitter:url" content="https://tutelmod.com/goodbye">
     </svelte:head>
     
     <NavigationBar />
